@@ -1,1 +1,149 @@
-body{}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.big-container{
+    display: flex;
+    min-height: 150vh;
+}
+
+.left-container{
+    background-image: url(background-img-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    padding: 30px;
+}
+
+.credit {
+    color: black;
+    align-self: center;
+    align-content: end;
+    justify-self: flex-end;
+    margin-bottom: 10px;
+}
+
+.credit a {
+    color: black;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f8ff;
+    flex: 2;
+    padding: 20px;
+}
+
+.quote {
+    margin: 0;
+    flex: 1;
+    font-size: 30px;
+}
+
+.disclaimer {
+    padding-top: 50px;
+}
+
+.encourage {
+    padding-bottom: 20px;
+}
+
+.container {
+    flex: 3;
+}
+
+.all-input {
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.all-input > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 100px;
+    row-gap: 100px;
+    padding: 30px;
+}
+
+.all-input label {
+    display: block;
+    font-size: 50;
+}
+
+.all-input input {
+    border: solid 2px #d3d3d3;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+input:focus {
+    box-shadow: 2px 1px 2px 2px rgba(0, 0, 0, 0.1);
+    outline: none;
+    border: solid 1px blue;
+}
+
+input:invalid {
+    outline: none;
+    border: solid 1px red;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-message {
+    margin-top: 0;
+    font-size: 0.8rem;
+    color: red;
+}
+
+#send-form {
+    background-color: #00bfff;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-left: var(--left-margin);
+    margin-top: 24px;
+    padding: 16px 32px;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: 2px 1px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.log-in {
+    margin-top: 8px;
+    margin-left: var(--left-margin);
+}
+
+.log-in a {
+    font-weight: bold;
+    color: #add8e6;
+    text-decoration: none;
+}
+
+em {
+    font-style: italic;
+}

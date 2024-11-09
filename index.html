@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
     <title>Sign Up Form</title>
 </head>
 <body>
     <div class="big-container">
         <div class="left-container">
             <div class="logo">
-                <img>
-                <p>The Fun Kids Club</p>
+                <p>Fun Kids Club</p>
             </div>
             <p class="credit">Photo by <a href="https://unsplash.com/photos/group-of-women-standing-on-green-grass-field-during-daytime-DqgMHzeio7g">Artem Kniaz</a> on <a href="https://unsplash.com/">Unsplash</a></p>
         </div>
         <div class="right-container">
             <div class="quote">
                 <p class="disclaimer">This is not a real online service!</p>
-                <p>Want to be part of the Fun Kids Club? It will change your life and create amazing memories! Sign up <em>NOW</em></p>
-                <p>You <em>know</em> you want to!</p>
+                <p class="question">Want to be part of the Fun Kids Club? It will change your life and create amazing memories! Sign up <em>NOW</em></p>
+                <p class="encourage">You <em>know</em> you want to!</p>
             </div>
             <div class="container">
                 <form>
@@ -51,6 +51,7 @@
                             <div class="con-password">
                                 <label for="confirm-password" id="confirm-password" required>Confirm Password</label>
                                 <input type="password" id="confirm-password" required>
+                                <p class="error-message">Passwords don't match!</p>
                             </div>
                         </div>
                     </div>
